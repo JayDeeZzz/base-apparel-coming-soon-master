@@ -1,2 +1,36 @@
+:root{
+--red: hsl(0, 36%, 70%);
+--softred: hsl(0, 93%, 68%);
+--grayishred: hsl(0, 6%, 24%);
+
+
+--linear1: 135deg, from hsl(0, 0%, 100%), to hsl(0, 100%, 98%);
+--linear2: 135deg, from hsl(0, 80%, 86%), to hsl(0, 74%, 74%);
+--bfont:'Josefin Sans', sans-serif;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+html, body{
+    height: 100vh;
+    font-size: 16px;
+    font-family: var(--bfont);
+}
+main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+h1{ font-size: 5em; }
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+}
+.content{ max-width: 100%; padding: 2em; }
+.banner{ width: 100%; height: 100%; background: url('../images/hero-desktop.jpg') no-repeat; background-size: cover; height: 100%; display: block;}
+.logo{ padding: 2em; padding-left: 0;}
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
